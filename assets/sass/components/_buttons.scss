@@ -1,0 +1,29 @@
+.button{
+  padding: .5rem 2rem;
+  border-radius: 60px;
+  color: $white;
+
+}
+
+.button_default{
+  @extend .button;
+
+  background-color: $white;
+  border: 1px solid $taupe-gray;
+  color: $granite-gray;
+  text-transform: uppercase;
+
+  &:hover {
+    background-color: $granite-gray;
+    border-color: $white;
+    color: $white;
+  }
+}
+
+
+.button_size {
+  @extend .button_default;
+
+  padding: 0.1rem 5rem;
+  font-size: $large;
+}

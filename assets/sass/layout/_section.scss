@@ -1,0 +1,129 @@
+.section {
+  margin-top: 0;
+  padding: 60px;
+  text-align: center;
+}
+
+.section-1 {
+  @extend .section;
+  background: $jelly-bean;
+  height: 400px;
+  text-align: center;
+  padding-top: 10rem;
+
+  &__title {
+    color: $white;
+    font-size: $x-large;
+    font-weight: $bold;
+  }
+
+  &__variente {
+    font-size: $x-large;
+    text-transform: uppercase;
+  }
+}
+
+span {
+  font-weight: $extra-light;
+}
+
+.section-2 {
+  @extend .section;
+  background-color: $granite-gray;
+
+  &__image {
+    width: 80%;
+    margin-top: 1rem;
+  }
+
+  &__title {
+    font-size: $large;
+    font-weight: $bold;
+    color: $white;
+  }
+
+  &__text {
+    text-align: justify;
+    width: 70%;
+    color: $white;
+    font-size: $medium;
+    font-weight: $extra-light;
+    display: inline-block;
+  }
+}
+
+.section-3 {
+  @extend .section;
+
+  &__image {
+    width: 80%;
+    margin-top: 1rem;
+  }
+
+  &__title {
+    font-size: $large;
+    font-weight: $bold;
+    color: $granite-gray;
+  }
+
+  &__text {
+    text-align: justify;
+    width: 70%;
+    color: $taupe-gray;
+    font-size: $medium;
+    font-weight: $extra-light;
+    display: inline-block;
+  }
+}
+
+.section-4 {
+  @extend .section;
+  background-color: $jelly-bean;
+  color: $white;
+
+  &__title {
+    font-size: $x-large;
+    font-weight: $bold;
+    color: $white;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.section-5 {
+  @extend .section;
+
+  &__image {
+    width: 35%;
+    margin-top: 1rem;
+  }
+
+  &__title {
+    font-size: $large;
+    font-weight: $bold;
+    color: $granite-gray;
+  }
+
+  &__text {
+    text-align: justify;
+    width: 70%;
+    color: $taupe-gray;
+    font-size: $medium;
+    font-weight: $extra-light;
+    display: inline-block;
+  }
+}
+
+.section-6 {
+  @extend .section;
+  background-color: $jelly-bean;
+
+  &__title {
+    color: $white;
+    font-size: $large;
+    font-weight: $bold;
+    margin: 0;
+    margin-bottom: 2rem;
+  }
+
+}

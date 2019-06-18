@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.header {
+  margin: 1rem;
+  padding-left: 10%;
+}
+.header__logo {
+  width: 20%;
+}
+
+footer {
+  background-color: #686963;
+}
+
+.logo_footer {
+  width: 15%;
+}
+
+.section, .section-6, .section-5, .section-4, .section-3, .section-2, .section-1, footer {
+  margin-top: 0;
+  padding: 60px;
+  text-align: center;
+}
+
+.section-1 {
+  background: #E56353;
+  height: 400px;
+  text-align: center;
+  padding-top: 10rem;
+}
+.section-1__title {
+  color: #fff;
+  font-size: 70px;
+  font-weight: 700;
+}
+.section-1__variente {
+  font-size: 70px;
+  text-transform: uppercase;
+}
+
+span {
+  font-weight: 200;
+}
+
+.section-2 {
+  background-color: #686963;
+}
+.section-2__image {
+  width: 80%;
+  margin-top: 1rem;
+}
+.section-2__title {
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+}
+.section-2__text {
+  text-align: justify;
+  width: 70%;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 200;
+  display: inline-block;
+}
+
+.section-3__image {
+  width: 80%;
+  margin-top: 1rem;
+}
+.section-3__title {
+  font-size: 50px;
+  font-weight: 700;
+  color: #686963;
+}
+.section-3__text {
+  text-align: justify;
+  width: 70%;
+  color: #91918D;
+  font-size: 18px;
+  font-weight: 200;
+  display: inline-block;
+}
+
+.section-4 {
+  background-color: #E56353;
+  color: #fff;
+}
+.section-4__title {
+  font-size: 70px;
+  font-weight: 700;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+.section-5__image {
+  width: 35%;
+  margin-top: 1rem;
+}
+.section-5__title {
+  font-size: 50px;
+  font-weight: 700;
+  color: #686963;
+}
+.section-5__text {
+  text-align: justify;
+  width: 70%;
+  color: #91918D;
+  font-size: 18px;
+  font-weight: 200;
+  display: inline-block;
+}
+
+.section-6 {
+  background-color: #E56353;
+}
+.section-6__title {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 2rem;
+}
+
+.button, .button_default, .button_size {
+  padding: 0.5rem 2rem;
+  border-radius: 60px;
+  color: #fff;
+}
+
+.button_default, .button_size {
+  background-color: #fff;
+  border: 1px solid #91918D;
+  color: #686963;
+  text-transform: uppercase;
+}
+.button_default:hover, .button_size:hover {
+  background-color: #686963;
+  border-color: #fff;
+  color: #fff;
+}
+
+.button_size {
+  padding: 0.1rem 5rem;
+  font-size: 50px;
+}
+
+/*# sourceMappingURL=main.css.map */
